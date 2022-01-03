@@ -36,7 +36,7 @@ local fg_dark        = '#EFEFEE'
 local hollow         = '#424760'
 local hollow_lighter = '#30354e'
 local white          = '#EFEFEE'
-local comment        = '#424242'
+local comment        = '#65737E'
 
 -- }}}
 
