@@ -132,7 +132,7 @@ local code_syntax = {
   Float          = { fg = orange },
   Boolean        = { fg = orange },
 
-  Identifier     = { fg = heavy_red },
+  Identifier     = { fg = yellow },
   Function       = { fg = blue, gui = 'italic' },
 
   Statement      = { fg = blue_light, gui = 'italic' },
