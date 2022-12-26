@@ -132,7 +132,7 @@ local code_syntax = {
   Float          = { fg = orange },
   Boolean        = { fg = orange },
 
-  Identifier     = { fg = yellow },
+  Identifier     = { fg = fg },
   Function       = { fg = blue, gui = 'italic' },
 
   Statement      = { fg = blue_light, gui = 'italic' },
@@ -141,7 +141,7 @@ local code_syntax = {
   Label          = { fg = blue, gui = 'italic' },
   Exception      = { fg = blue, gui = 'italic' },
   Operator       = { fg = blue },
-  Keyword        = { fg = heavy_red },
+  Keyword        = { fg = blue },
 
   Include        = { fg = blue_light },
   Define         = { fg = magenta },
@@ -163,7 +163,7 @@ local code_syntax = {
 
   Ignore         = {},
   Underlined     = { gui = 'underline' },
-  Error          = { fg = heavy_red },
+  Error          = { fg = red },
   Todo           = { fg = magenta, gui = 'bold' },
 }
 
@@ -178,7 +178,7 @@ local plugin_syntax = {
   GitGutterChangeDelete  = { fg = orange },
 
   diffAdded              = { fg = green },
-  diffRemoved            = { fg = heavy_red },
+  diffRemoved            = { fg = red },
 
   TSError                = { fg = red },
   TSPunctDelimiter       = { fg = fg },
